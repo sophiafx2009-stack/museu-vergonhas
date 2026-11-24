@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+    margin: 50px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+    background-image: url("Wallpaper\ Museu\ da\ Vergonha.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+    
+}
+
+   .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+ .cabecalho{
+     background-color: #DDB078;
+    color: #fffaf0;
+    text-align: center;
+    padding: 35px 0;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 20px;
+ }
+
+ .subtitulo{
+        font-size: 16px;
+    color: #8e715b;
+    letter-spacing: 1px;
+ }
+
+
+ 
+ nav.menu-principal {
+    margin-top: 30px;
+}
+
+ul.menu-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.menu-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #fffaf0;
+    background-color: #c65f5f;
+    padding: 12px 22px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.menu-link:hover {
+    background-color: rgb(248, 142, 101);
+    color: white;
+    transform: translateY(-5px);
+   
+}
+ 
+.rodape {
+    background-color: #DDB078;
+    color: #fffaf0;
+    text-align: center;
+    padding: 25px 0;
+ 
+}
+
+.rodape p {
+    margin-bottom: 15px;
+}
+
+.rodape address {
+    font-style: normal;
+}
+
+.rodape a {
+    color: #f5e6c8;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.rodape a:hover {
+    color: #e9a1a1;
+    text-decoration: underline;
+}
+
+img{
+    width: 300px;
+}
