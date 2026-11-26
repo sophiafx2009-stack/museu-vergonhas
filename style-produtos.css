@@ -104,3 +104,56 @@ ul.menu-principal {
 img{
     width: 300px;
 }
+
+
+
+
+
+.secao {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.secao h2 {
+    color: #fffaf0;
+    text-align: center;
+    background-color: #DDB078;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.produto {
+    background-color: #fffaf0;
+    width: 220px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.produto h3 {
+    color: #8e715b;
+    font-size: 16px;
+}
+
+.produto p {
+    
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
